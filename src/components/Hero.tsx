@@ -17,7 +17,7 @@ function Hero() {
 
           <div className="mt-6 flex flex-row items-center">
             <a
-              href="/Christiana_Kobiah_Resume (2).pdf"
+              href="/Christiana_Kobiah_Resume.pdf"
               download
               className="border rounded-full w-40 text-center px-1 py-2 pt-1.5 shadow-[0_0_20px] text-gray-500 bg-white hover:bg-[#5f6fda] hover:text-white mr-3"
             >
