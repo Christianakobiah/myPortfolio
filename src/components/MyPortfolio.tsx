@@ -4,9 +4,6 @@ import advertise from "../assets/img/advertise.png";
 import cloth from "../assets/img/cloth-1.png";
 import evhive from "../assets/img/evhive.png";
 import bookie from "../assets/img/bookie.png";
-import myprofile from "../assets/img/myprofile.jpg";
-import profile2 from "../assets/img/myprofile2.jpg";
-import profile3 from "../assets/img/myprofile3.jpg";
 
 
 function MyPortfolio (){

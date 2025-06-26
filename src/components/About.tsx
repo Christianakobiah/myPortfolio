@@ -1,4 +1,4 @@
-import me from "../assets/img/meeeee.png";
+import myprofile from "../assets/img/myprofile.jpg"
 import { useState } from "react";
 
 function About (){
@@ -11,7 +11,7 @@ function About (){
         <section className=" border border-gray-100 mt-16 bg-gray-100">
             <div className="flex flex-row items-center">
                  <div className="border-1 rounded-full overflow-hidden shadow-[0_0_10px] mt-16 ml-25">
-                <img src={me} className="w-70 h-70 object-cover" />
+                <img src={myprofile} className="w-70 h-70 object-cover" />
                 </div>
                 <div className="flex flex-col justify-items">
                 <h1 className="ml-10 text-5xl font-medium text-[#283DBA] mt-20">About Me</h1>

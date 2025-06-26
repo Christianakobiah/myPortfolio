@@ -1,5 +1,5 @@
-import twitter from "../assets/icons/icons8-x-24.png";
-import mee from "../assets/img/meeeee.png";
+
+import profile2 from "../assets/img/myprofile2.jpg"
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa"; 
 
 function Hero() {
@@ -36,7 +36,7 @@ function Hero() {
         </div>
 
         <div className="border-2 rounded-full overflow-hidden shadow-[0_0_20px] mt-16 mr-15">
-          <img src={mee} alt="Christiana" className="w-72 h-72 object-cover" />
+          <img src={profile2} alt="Christiana" className="w-72 h-72 object-cover" />
         </div>
       </div>
     </section>
