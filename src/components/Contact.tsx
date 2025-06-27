@@ -1,7 +1,7 @@
 function Contact (){
     return(
         <>
-        <section className="flex flex-col text-center">
+        <section id="contact" className="flex flex-col text-center">
              <h1 className="text-4xl font-bold text-center mb-4 p-4">Contact</h1>
                 <a href="mailto:kobiahchristiana@gmail.com" className="mb-1 text-blue-500 text-3xl" >kobiahchristiana@gmail.com</a>
                 <a href="#" className="mb-1 text-blue-500 text-3xl" >Archer Street, 104 Abelenkpe - Accra</a>

@@ -9,7 +9,7 @@ import bookie from "../assets/img/bookie.png";
 function MyPortfolio (){
     return(
         <>
-          <section className=" border border-gray-100 mt-8 bg-gray-200 pt-10">
+          <section id="portfolio" className=" border border-gray-100 mt-8 bg-gray-200 pt-10">
             <h1 className="text-center text-5xl font-medium text-[#283DBA] mb-8">This Is My Portfolio</h1>
             <div className="flex flex-row justify-around">
            <a href="https://landingpage-assignment-eosin.vercel.app/"> 

@@ -9,8 +9,8 @@ import { SiTypescript } from "react-icons/si";
 function Skills (){
     return(
         <>
-         <section className=" border border-gray-100 mt-16 bg-gray-100">
-             <h1 className="text-5xl capitalize text-center mt-5 text-[#283DBA]">What i do</h1>
+         <section id="skills" className=" border border-gray-100 mt-16 bg-gray-100">
+             <h1 className="text-5xl capitalize text-center mt-5 text-[#283DBA]">my skills</h1>
             <div className="flex flex-row items-center mb-5">
                 
     <div className="grid grid-cols-3 gap-25 max-w-lg mx-auto mt-10 text-center">

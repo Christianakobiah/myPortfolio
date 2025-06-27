@@ -8,9 +8,9 @@ function Footer (){
         <p>&copy; 2025 K.Christiana. All rights reserved.</p>
         <div className="space-x-4">
           <a href="#" className="hover:underline">Home</a>
-          <a href="#" className="hover:underline">About</a>
-          <a href="#" className="hover:underline">Portfolio</a>
-          <a href="#" className="hover:underline">Contact</a>
+          <a href="#about" className="hover:underline">About</a>
+          <a href="#portfolio" className="hover:underline">Portfolio</a>
+          <a href="#contact" className="hover:underline">Contact</a>
         </div>
       </div>
     </footer>

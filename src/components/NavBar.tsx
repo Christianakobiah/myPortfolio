@@ -42,7 +42,7 @@ export default function Header() {
               <a href="#contact" className="nav-link">
                 Contact
               </a>
-              <a href="#hire" className="nav-link">
+              <a href="mailto:kobiahchristiana@gmail.com" className="nav-link">
                 Hire Me
               </a>
             </div>

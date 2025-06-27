@@ -4,7 +4,7 @@ import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Hero() {
   return (
-    <section>
+    <section id="home">
       <div className="flex flex-row justify-between items-center text-white">
         <div className="mt-24 ml-10">
           <h1 className="text-4xl font-bold">Christiana Kobiah</h1>
@@ -23,15 +23,19 @@ function Hero() {
             >
               Download CV
             </a>
-            <div className="flex flex-col items-center mr-3">
+           <a href="https://www.linkedin.com/in/christiana-kobiah"> <div className="flex flex-col items-center mr-3">
             <FaLinkedin className="text-3xl text-white hover:text-purple-600" />
       </div>
+      </a>
+      <a href="https://github.com/Christianakobiah">
         <div className="flex flex-col items-center mr-3">
         <FaGithub className="text-3xl text-white hover:text-purple-600" />
       </div>
-             <div className="flex flex-col items-center">
+      </a>
+            <a href=""> <div className="flex flex-col items-center">
         <FaTwitter className="text-3xl text-white hover:text-purple-600" />
       </div>
+      </a>
           </div>
         </div>
 
