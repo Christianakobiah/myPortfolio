@@ -9,9 +9,9 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    
+    <div className="overflow-x-hidden">
       <NavBar />
-      
       <About />
       <MyPortfolio />
       <Skills />
@@ -19,7 +19,8 @@ function App() {
       <Message />
       <Contact />
       <Footer />
-    </>
+      </div>
+    
   );
 }
 

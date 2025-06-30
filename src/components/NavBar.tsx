@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Hero from "./Hero"; 
+import Hero from "./Hero";
 import abstract from "../assets/img/abstract5.jpg";
 
 export default function Header() {
@@ -12,59 +12,88 @@ export default function Header() {
     >
       <section className="py-3">
         <div className="space-y-5 border-2 border-[rgba(255,255,255,0.2)] rounded-2xl h-screen w-[80%] m-auto mb-4 bg-[rgba(255,255,255,0.1)] my-5">
-          <nav className="flex flex-row justify-between p-6 z-[100] translate-y-[30px]">
+          <nav className="flex flex-row justify-between items-center p-6 z-[100] translate-y-[30px]">
             <a
               href="#"
-              className="text-[#CE1ED0] text-lg font-bold pl-5 italic hover:text-white"
+              className="text-white text-xl font-bold italic hover:text-[#CE1ED0] "
             >
               K.CHRISTIANA
             </a>
 
-            <div className="lg:hidden pr-5">
+            {/* Hamburger button */}
+            <div className="md:hidden pr-5"> 
               <button
                 onClick={() => setMenuOpen(!menuOpen)}
-                className="text-white border px-2 py-1 rounded-md"
+                className="text-white border px-2 py-1 rounded-md ml-17"
+                aria-label="Toggle navigation menu"
               >
                 Menu
               </button>
             </div>
 
-            <div className="pr-5 hidden lg:flex space-x-6 text-white z-10">
-              <a href="#home" className="nav-link">
+            {/* Desktop Navigation Links:*/}
+            <div className="hidden md:flex pr-2 space-x-6 text-white z-10">
+              <a href="#home" className="nav-link hover:text-[#CE1ED0] transition-colors">
                 Home
               </a>
-              <a href="#about" className="nav-link">
+              <a href="#about" className="nav-link hover:text-[#CE1ED0] transition-colors">
                 About
               </a>
-              <a href="#portfolio" className="nav-link">
+              <a href="#portfolio" className="nav-link hover:text-[#CE1ED0] transition-colors">
                 Portfolio
               </a>
-              <a href="#contact" className="nav-link">
+              <a href="#contact" className="nav-link hover:text-[#CE1ED0] transition-colors">
                 Contact
               </a>
-              <a href="mailto:kobiahchristiana@gmail.com" className="nav-link">
+              <a href="mailto:kobiahchristiana@gmail.com" className="nav-link hover:text-[#CE1ED0] transition-colors">
                 Hire Me
               </a>
             </div>
           </nav>
 
-          {/* Mobile Menu
+          {/* Mobile Menu (conditionally rendered) */}
           {menuOpen && (
-            <div id="mobile-menu" className="lg:hidden px-4 pb-4">
-              <a href="#home" className="block py-2 hover:text-green-600">
+            <div
+              id="mobile-menu"
+              className="block md:hidden px-4 pb-4 text-white text-center space-y-2 mt-4 ml-38"
+            >
+              <a
+                href="#home"
+                className="block py-2 hover:text-[#CE1ED0] transition-colors"
+                onClick={() => setMenuOpen(false)}
+              >
                 Home
               </a>
-              <a href="#about" className="block py-2 hover:text-green-600">
+              <a
+                href="#about"
+                className="block py-2 hover:text-[#CE1ED0] transition-colors"
+                onClick={() => setMenuOpen(false)}
+              >
                 About
               </a>
-              <a href="#skills" className="block py-2 hover:text-green-600">
-                Skills
+              <a
+                href="#portfolio"
+                className="block py-2 hover:text-[#CE1ED0] transition-colors"
+                onClick={() => setMenuOpen(false)}
+              >
+                Portfolio
               </a>
-              <a href="#contact" className="block py-2 hover:text-green-600">
+              <a
+                href="#contact"
+                className="block py-2 hover:text-[#CE1ED0] transition-colors"
+                onClick={() => setMenuOpen(false)}
+              >
                 Contact
               </a>
+              <a
+                href="mailto:kobiahchristiana@gmail.com"
+                className="block py-2 hover:text-[#CE1ED0] transition-colors"
+                onClick={() => setMenuOpen(false)}
+              >
+                Hire Me
+              </a>
             </div>
-          )} */}
+          )}
 
           <Hero />
         </div>
