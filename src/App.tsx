@@ -3,9 +3,10 @@ import About from "./components/About";
 import MyPortfolio from "./components/MyPortfolio";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
 import Message from "./components/Message";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
       <MyPortfolio />
       <Skills />
       <Experience />
+      <Education />
       <Message />
-      <Contact />
       <Footer />
       </div>
     

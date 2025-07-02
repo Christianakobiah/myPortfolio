@@ -7,15 +7,15 @@ function Hero() {
     <section id="home">
       <div className="flex flex-col md:flex-row justify-between items-center text-white">
         <div className="ml-5">
-          <h1 className="md:text-4xl font-bold sm:text-2xl text-3xl">Christiana Kobiah</h1>
+          <h1 className="md:text-4xl font-bold sm:text-2xl text-3xl sm:mt-0 md:mt-0 mt-15">Christiana Kobiah</h1>
           <h3 className="text-xl font-medium">Frontend Developer</h3>
-          <p className="md:text-sm md:mt-3.5 mr-5 mt-7 sm:text-base ">
+          <p className="md:text-sm md:mt-3.5 mr-5 mt-7 sm:text-base leading-relaxed">
             Results-driven Frontend Developer skilled in HTML, CSS, JavaScript, and React and Tailwind,
             <br /> with a passion for crafting responsive and accessible web applications. Adept at collaborating
             <br /> with teams to deliver high-quality, user-centered solutions.
           </p>
 
-          <div className="mt-6 flex flex-row items-center">
+          <div className="md:mt-6 mt-10 flex flex-row items-center">
             <a
               href="/Christiana_Kobiah_Resume.pdf"
               download
@@ -40,9 +40,10 @@ function Hero() {
           </div>
         </div>
 
-        <div className="border-2 rounded-full overflow-hidden shadow-[0_0_20px] mt-16 mr-15">
-          <img src={profile2} alt="Christiana" className=" sm:w-60 sm:h-60 w-72 h-72 object-cover hidden md:block" />
-        </div>
+       <div className="hidden md:block border-2 rounded-full overflow-hidden shadow-[0_0_20px] mt-16 mr-15">
+  <img src={profile2}  className="sm:w-60 sm:h-60 w-72 h-72 object-cover" />
+</div>
+
       </div>
     </section>
   );

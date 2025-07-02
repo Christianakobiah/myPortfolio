@@ -1,6 +1,7 @@
-import assignpor from "../assets/img/mylogo-removebg-preview.png";
+
 import forpot from "../assets/img/forpot.png";
 import advertise from "../assets/img/advertise.png";
+import myport from "../assets/img/myport.png"
 import cloth from "../assets/img/cloth-1.png";
 import evhive from "../assets/img/evhive.png";
 import bookie from "../assets/img/bookie.png";
@@ -9,69 +10,112 @@ import bookie from "../assets/img/bookie.png";
 function MyPortfolio() {
     return (
         <>
-            <section id="portfolio" className=" bg-gray-200 pt-10">
-                <h1 className="text-center text-4xl md:text-5xl font-medium text-[#283DBA] mb-8">This Is My Portfolio</h1>
-                <div className="grid grid-cols-1 md:grid-cols-3 ml-4 md:ml-24 md:max-w-5xl sm:max-w-3xl">
-                    <div className="sm:mr-50">
-                        <a href="https://landingpage-assignment-eosin.vercel.app/">
-                            <div className="border-2 border-[rgba(63,82,199,0.3)] h-60 w-80 bg-[rgba(63,82,199,0.7)] shadow-[0_0_20px] ml-7 sm:ml-0 md:ml-10 mb-8 sm:h-60 sm:w-70">
-                                <h1 className="text-white font-bold text-center mt-8">Click to visit my shop</h1>
-                                <img src={cloth} className="h-35 w-35 ml-21" />
+           <section id="portfolio" className="bg-gray-200 pt-10 pb-16">
+  <p className="text-center text-[#5f6fda] text-4xl font-bold md:text-4xl  mb-12">
+    This Is My Portfolio
+  </p>
 
-                            </div>
-                        </a>
-                    </div>
-                    <div className="sm:ml-15">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 md:px-24">
+    <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl overflow-hidden h-[400px] flex flex-col">
+      <img src={cloth} className="w-full object-contain" />
+      <div className="flex flex-col justify-between flex-grow p-5">
+        <h2 className="text-xl font-semibold text-[#283DBA] mb-2">Fashion Landing Page</h2>
+        <p className="text-gray-600 text-sm mb-4">
+          A beautiful landing page for a fashion shop built with love.
+        </p>
+        <a href="https://landingpage-assignment-eosin.vercel.app/" target="_blank" rel="noreferrer">
+          <button className="w-full bg-[#5f6fda] text-white py-2 rounded hover:bg-[#4c5ace] transition mb-0">
+            View Project
+          </button>
+        </a>
+      </div>
+    </div>
 
-                        <a href="https://team-strawberry-bel8.vercel.app/">
-                            <div className="border-2 border-[rgba(63,82,199,0.3)] h-60 w-80 bg-[rgba(63,82,199,0.7)] shadow-[0_0_20px] ml-7 sm:h-60 sm:w-70 ">
-                                <h1 className="text-white font-bold text-center mt-8"> View my form</h1>
-                                <img src={forpot} className="h-30 w-30 border border-rounded-2xl ml-24 mt-5" />
+   
+    <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl overflow-hidden h-[400px] flex flex-col">
+      <img src={forpot} alt="Form Project" className="w-full h-60 object-cover" />
+      <div className="flex flex-col justify-between flex-grow p-5">
+        <h2 className="text-xl font-semibold text-[#283DBA] mb-2">Form Page</h2>
+        <p className="text-gray-600 text-sm mb-4">
+          A clean and responsive form interface made with tailwindcss.
+        </p>
+        <a href="https://team-strawberry-bel8.vercel.app/" target="_blank" rel="noreferrer">
+          <button className="w-full bg-[#5f6fda] text-white py-2 rounded hover:bg-[#4c5ace] transition">
+            View Project
+          </button>
+        </a>
+      </div>
+    </div>
 
-                            </div>
-                        </a>
-                    </div>
+      <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl overflow-hidden h-[400px] flex flex-col">
+      <img src={evhive} alt="Form Project" className="w-full h-60 object-cover" />
+      <div className="flex flex-col justify-between flex-grow p-5">
+        <h2 className="text-xl font-semibold text-[#283DBA] mb-2">Event Hive Page</h2>
+        <p className="text-gray-600 text-sm mb-4">
+           Event listing and ticketing interface where users can discover and manage events
+        </p>
+        <a href="https://eventhivec.netlify.app/" target="_blank" rel="noreferrer">
+          <button className="w-full bg-[#5f6fda] text-white py-2 rounded hover:bg-[#4c5ace] transition">
+            View Project
+          </button>
+        </a>
+      </div>
+    </div>
+    
+     <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl overflow-hidden h-[400px] flex flex-col">
+      <img src={advertise} alt="Form Project" className="w-full h-60 object-cover" />
+      <div className="flex flex-col justify-between flex-grow p-5">
+        <h2 className="text-xl font-semibold text-[#283DBA] mb-2">Buyversity Advert Platform</h2>
+        <p className="text-gray-600 text-sm mb-4">
+          An interactive platform that allows students to buy what they need and advertise what they sell.
+        </p>
+        <a href="https://buyversityc.netlify.app/" target="_blank" rel="noreferrer">
+          <button className="w-full bg-[#5f6fda] text-white py-2 rounded hover:bg-[#4c5ace] transition">
+           View Project
+          </button>
+        </a>
+      </div>
+    </div>
 
-                    <div className="sm:ml-35">
-                        <a href="https://portfolio-zeta-coral-56.vercel.app/">
-                            <div className="border-2 border-[rgba(63,82,199,0.3)] h-60 w-80 bg-[rgba(63,82,199,0.7)] shadow-[0_0_20px] mt-8 ml-7 md:ml-0 md:mt-0 sm:h-60 sm:w-70">
-                                <h1 className="text-white font-bold text-center mt-8">View advertisement platform</h1>
-                                <img src={advertise} className="h-35 w-35 ml-21 border border-black" />
+     <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl overflow-hidden h-[400px] flex flex-col">
+  <img src={bookie} alt="Form Project" className="w-full h-60 object-cover" />
 
-                            </div>
-                        </a>
-                    </div>
+  <div className="flex flex-col justify-between flex-grow p-5">
+    <div>
+      <h2 className="text-xl font-semibold text-[#283DBA] mb-2">A Bookie Library App</h2>
+      <p className="text-gray-600 text-sm">
+        A simple online library app for organizing and browsing books.
+      </p>
+    </div>
 
-                    <div className="">
-                        <a href="https://landingpage-assignment-eosin.vercel.app/">
-                            <div className="border-2 border-[rgba(63,82,199,0.3)] h-60 w-80 bg-[rgba(63,82,199,0.7)] shadow-[0_0_20px] ml-6 md:ml-10 mb-8 md:mt-0 mt-8 sm:h-60 sm:w-70">
-                                <h1 className="text-white font-bold text-center mt-8">Click to visit my shop</h1>
-                                <img src={assignpor} className="h-60 w-60 ml-8" />
-                            </div>
-                        </a>
-                    </div>
-                    <div className="sm:ml-15">
-                        <a href="https://team-strawberry-bel8.vercel.app/">
-                            <div className="border-2 border-[rgba(63,82,199,0.3)] h-60 w-80 bg-[rgba(63,82,199,0.7)] shadow-[0_0_20px] mb-8 ml-7 md:ml-7 md:mb-0 sm:h-60 sm:w-70 ">
-                                <h1 className="text-white font-bold text-center mt-8"> View my library</h1>
-                                <img src={bookie} className="h-30 w-30 border border-rounded-2xl ml-24 mt-5" />
+    <a href="https://bookieappc.netlify.app/" target="_blank" rel="noreferrer">
+      <button className="w-full bg-[#5f6fda] mt-4 text-white py-2 rounded hover:bg-[#4c5ace] transition">
+        View Project
+      </button>
+    </a>
+  </div>
+</div>
 
-                            </div>
-                        </a>
-                    </div>
-                    <div className="sm:ml-35">
-                        <a href="https://portfolio-zeta-coral-56.vercel.app/">
-                            <div className="border-2 border-[rgba(63,82,199,0.3)] h-60 w-80 bg-[rgba(63,82,199,0.7)] shadow-[0_0_20px] md:ml-0 ml-7 md:mb-0 mb-8 sm:h-60 sm:w-70">
-                                <h1 className="text-white font-bold text-center mt-8">Click to see EventHive</h1>
-                                <img src={evhive} className="h-35 w-35 ml-21" />
 
-                            </div>
-                        </a>
-                    </div>
+     <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl overflow-hidden h-[400px] flex flex-col">
+      <img src={myport} alt="Form Project" className="w-full h-60 object-cover" />
+      <div className="flex flex-col justify-between flex-grow p-5">
+        <h2 className="text-xl font-semibold text-[#283DBA] mb-2">My Portfolio</h2>
+        <p className="text-gray-600 text-sm mb-4">
+         My personal portfolio showcasing my skills, projects, work experience and journey as a frontend developer
+        </p>
+        <a href="https://my-portfolio-d578.vercel.app/" target="_blank" rel="noreferrer">
+          <button className="w-full bg-[#5f6fda] text-white py-2 rounded hover:bg-[#4c5ace] transition">
+            View Project
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
 
-                </div>
-                  <hr className="border border-gray-400 mx-3 mt-7"/>
-            </section>
+   <hr className="border-gray-300 mx-25 mt-14"/>
+</section>
+
         </>
     )
 }

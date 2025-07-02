@@ -55,7 +55,7 @@ export default function Header() {
           {menuOpen && (
             <div
               id="mobile-menu"
-              className="block md:hidden px-4 pb-4 text-white text-center space-y-2 mt-4 ml-38"
+              className="block md:hidden px-4 pb-4 text-white text-center space-y-2 mt-4 ml-55"
             >
               <a
                 href="#home"

@@ -10,7 +10,7 @@ function Skills (){
     return(
         <>
          <section id="skills" className=" border border-gray-200 bg-gray-200">
-             <h1 className="text-5xl capitalize text-center mt-5 text-[#283DBA]">my skills</h1>
+             <h1 className="capitalize text-center mt-5 text-[#5f6fda] text-4xl font-bold">my skills</h1>
             <div className="flex flex-row items-center mb-5">
                 
     <div className="grid grid-cols-3 md:gap-25 gap-19 max-w-lg mx-auto mt-10 text-center">
@@ -45,7 +45,7 @@ function Skills (){
       </div>
     </div>   
         </div>
-         <hr className="border border-gray-400 mx-3 mt-10"/>
+          <hr className="border-gray-300 mx-25 mt-14 pb-10"/>
 
        </section>
         </>
