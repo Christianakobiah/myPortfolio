@@ -3,7 +3,7 @@ function Experience() {
   return (
     
     <section className=" bg-gray-200">
-    <div id="experience" className="flex flex-col max-w-4xl items-center">
+    <div id="experience" className="flex flex-col max-w-4xl items-center md:ml-55">
       <div
         id="experience-section"
         className="text-[#3f52c7] mt-10 w-full px-5 md:px-20">

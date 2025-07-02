@@ -17,7 +17,7 @@ function About() {
                 <div className="flex flex-col justify-items">
                     <p className="ml-6 md:ml-10 text-[#3f52c7] mt-3 md:mt-0 text-base leading-relaxed max-w-3xl">Hi, I’m Christiana Kobiah — a frontend developer with a strong interest in building clean and responsive websites. I’m learning and growing in technologies like HTML, CSS, JavaScript, React, and Tailwind CSS. I enjoy turning ideas into real projects and improving my skills every day.I’m also passionate about tech education and love helping others understand how digital tools work. I'm excited to keep learning and take on new challenges as I grow in the tech space.</p>
 
-                    <div className="ml-3 md:ml-24 text-white mt-5 text-lg mb-5 md:mb-0 grid grid-cols-2 md:grid-cols-3 gap-4">
+                    <div className="ml-3 md:ml-24 text-white mt-5 text-lg mb-5 md:mb-0 grid grid-cols-2 md:grid-cols-3 gap-4 md:mr-50">
   <button className="border rounded border-gray-700 px-3 md:px-7 py-1 bg-[#5f6fda]">
     Web Developer
   </button>
@@ -28,7 +28,7 @@ function About() {
 
   <button
     id="education-btn"
-    className="border rounded border-gray-700 px-3 md:px-7 py-1 bg-[#5f6fda] col-span-2 md:col-start-2 md:col-span-1 justify-self-center"
+    className="border rounded border-gray-700 px-3 md:px-7 py-1 bg-[#5f6fda] col-span-2 md:col-start-3 md:col-span-1 justify-self-center"
   >
     Digital Marketer
   </button>
